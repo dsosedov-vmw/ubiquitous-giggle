@@ -3,14 +3,6 @@
     "name": "ubiquitous_giggle",
     "image": "mcr.microsoft.com/dotnet/sdk:7.0",
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {},
-        "ghcr.io/devcontainers/features/powershell:1": {}
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "GitLab.gitlab-workflow"
-            ]
-        }
+        "ghcr.io/devcontainers/features/git:1": {}
     }
 }
