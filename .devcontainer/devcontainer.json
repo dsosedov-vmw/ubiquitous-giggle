@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "name": ".NET",
+    "name": "ubiquitous_giggle",
     "image": "mcr.microsoft.com/dotnet/sdk:7.0",
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
