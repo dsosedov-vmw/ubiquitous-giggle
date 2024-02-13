@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ubiquitous_giggle.Pages;
+namespace UbiquitousGiggle.Pages;
 
 public class IndexModel : PageModel
 {

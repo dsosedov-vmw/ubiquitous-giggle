@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52E29624-4460-4E58-BC93-F77534315747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UbiquitousGiggle", "src\UbiquitousGiggle\UbiquitousGiggle.csproj", "{A7E4C683-2684-42E8-82EB-F94BCF955324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F09962D8-2FDB-4978-8666-3CBE0522AD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UbiquitousGiggle.Tests", "test\UbiquitousGiggle.Tests\UbiquitousGiggle.Tests.csproj", "{A10CEBE9-BA63-4494-B712-2B6891148005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E4C683-2684-42E8-82EB-F94BCF955324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E4C683-2684-42E8-82EB-F94BCF955324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E4C683-2684-42E8-82EB-F94BCF955324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E4C683-2684-42E8-82EB-F94BCF955324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10CEBE9-BA63-4494-B712-2B6891148005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10CEBE9-BA63-4494-B712-2B6891148005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10CEBE9-BA63-4494-B712-2B6891148005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10CEBE9-BA63-4494-B712-2B6891148005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7E4C683-2684-42E8-82EB-F94BCF955324} = {52E29624-4460-4E58-BC93-F77534315747}
+		{A10CEBE9-BA63-4494-B712-2B6891148005} = {F09962D8-2FDB-4978-8666-3CBE0522AD15}
+	EndGlobalSection
+EndGlobal
